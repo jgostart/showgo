@@ -2281,11 +2281,11 @@ public  class down_PROSS extends AsyncTask<Void, Integer, Void>{
                    String str =mpfile.get(b);
                    String[] parts = str.split("\\.");
 
-                   Log.d("NNNNNNNNNNN", Arrays.toString( parts)+"----"+ee);
+                   Log.d("NNNNNNNNNNN"+String.valueOf(b), Arrays.toString( parts)+"----"+ee);
 
                    if( parts[0].equals(ee)){
-                       Log.d("iiiiiiiiiiiisssssssss", "文件存在");
-                       Log.d("iiiiiiiiiiiisssssssss", Arrays.toString( parts));
+//                       Log.d("iiiiiiiiiiiisssssssss", "文件存在");
+//                       Log.d("iiiiiiiiiiiisssssssss", Arrays.toString( parts));
 
 //                       TextView textView2 = childView.findViewById(R.id.pusname);
                        Button cgbt=childView.findViewById(R.id.dow);
